@@ -1,2 +1,1 @@
-# blankhart.github.io
-blankhart's blog
+blankharts blog

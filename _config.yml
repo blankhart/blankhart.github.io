@@ -23,12 +23,16 @@ github_username:  blankhart
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
+# Defaults not being read:
+# default:
+#  author: "blankhart"
+#  layout: post
+
 # Serve settings
-detach: true
+# detach: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

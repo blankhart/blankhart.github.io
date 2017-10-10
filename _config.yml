@@ -16,10 +16,9 @@
 title: blankharts blave
 email: blankhart@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This blog will consist of my notes on mathematics, abstract algebra, category theory, functional and semi-functional programming languages, and possibly U.S. federal income taxation.
+  Functional and semi-functional programming.
 baseurl: "/blog" # the subpath for the blog
 url: "http://blankhart.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ThinManOfHaddam
 github_username:  blankhart
 
 # Build settings
@@ -27,6 +26,9 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+# Serve settings
+detach: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

@@ -1,11 +1,11 @@
 #!/bin/bash
 
 #https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
-Y='\033[1;33m'
-NC='\033[0m'
+YELLOW='\033[1;33m'
+COLORLESS='\033[0m'
 
 status () {
-  echo -e "${Y}" $1
+  echo -e "${YELLOW}" $1 "${COLORLESS}"
 }
 
 status "Stashing..."

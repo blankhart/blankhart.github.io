@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
+# See https://jaspervdj.be/hakyll/tutorials/github-pages-tutorial.html
+
+# See https://stackoverflow.com/questions/5947742/how-to-change-the-output-color-of-echo-in-linux
 YELLOW='\033[1;33m'
 COLORLESS='\033[0m'
 
